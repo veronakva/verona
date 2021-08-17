@@ -161,11 +161,6 @@ color: #fff;
 	padding-left: 38px;
 	margin-bottom: 10px;
 	margin-top: 10px;
-	
-}
- {
-
-
 }
 
 .btn-form {
@@ -190,3 +185,95 @@ color: #fff;
 	margin: 0;
 	text-align: center;
 }
+
+.red {
+	color: red;
+}
+
+/*responsive*/
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 960px;
+	}
+
+	.offer {
+		width: 100%;
+	}
+	.intro {
+	width: 100%;
+	}
+	.desktop {
+		display: block;
+	    width: 100%;
+	    margin: 72px auto 0;
+	    padding-bottom: 100%;
+	
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		width: 720px;
+	}
+
+	.wrapper {
+		flex-direction: column;
+	}
+	.offer {
+		width: 100%;
+	}
+	.intro {
+		width: auto;
+	}
+	.desktop {
+		display: block;
+	    width: 100%;
+	    margin-top:  72px ;
+	    padding-bottom: 100%;
+	   
+	}
+	.freetime{
+
+		flex-direction: column;
+	}
+	.skill {
+		width: auto;
+		margin-bottom: 30px;
+	}
+
+  	.skill-text {
+	margin-top: 7px;
+	width: auto;
+	}
+	.mail{
+
+		margin-top: 0px;
+	}
+}
+@media screen and (max-width: 768px) {
+	.container {
+		width: 540px;
+	}
+
+	.title {
+	 width: 550px;
+	}
+
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		width: 90%;
+	}
+	.title {
+	 width: 318px;
+	}
+		
+	}
+	.intro{
+		width: 300px;
+		
+	}
+}
+
+	
