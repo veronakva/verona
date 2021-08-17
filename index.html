@@ -1,39 +1,41 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Верстка современного сайта</title>
     <link href="<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans&family=Ubuntu:wght@400;700&display=swap rel="stylesheet"> 
-	<link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animate.css">
+
 </head>
 <body>
 	<header id="header" class="header">
 		<div class="container">
-			    <img src="img/logo.png" alt="WAYUP" class="logo">
+			    <img src="img/logo.png" alt="WAYUP" class="logo animated fadeInDown">
 
 			<div class="wrapper">
-				<div class="offer">
+				<div class="offer animated fadeInLeft">
 					<h1 class="title">
 						С помощью верстки  я создам ту жизнь, о которой <span> мечтаю! </span>
 					</h1>
 					<p class="intro">
 						Мои стремления + настойчивость позволят мне  достичь чего угодно. Я не верю в это. Я знаю это  на 100%. Меня не остановить!
 					</p>
-					<a href="#" class="btn">Двигаться к мечте! </a>
+					<a href="#" class="btn" id = "btn">Двигаться к мечте! </a>
 				</div>
-				<img src="img/desktop.png" alt="Code desktop" class="desktop">
+				<img src="img/desktop.png" alt="Code desktop" class="desktop animated fadeInRight">
 			</div>
 		</div>
 	</header>
-	<section id="wait" class="wait">
+	    <section id="wait" class="wait">
 		<div class="container">
 			<h2 class="section-title"><ins>Что ждет меня впереди </ins> 
 			</h2>
 			<div class="freetime">
-				<div class="skill">
+				<div class="skill animated fadeInLeft">
 					<h3 class="skill-title">
-						fghfh
+						Свободное время
 					</h3>
 					<p class="skill-text">
 						Мне нужно свободное время на семью и самое настоящее
@@ -77,5 +79,6 @@
 			</p>
 		</div>
 	</footer>
+	<script src="js/script.js" defer> </script>
 </body>
 </html>
